@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    box-sizing: border-box;}
+body::-webkit-scrollbar{
+    width: 15px;}
+    body::-webkit-scrollbar-thumb{ /*Barra de scroll sin puntero*/
+        background: rgb(90, 105,133);
+        border-radius: 50px;}
+    body::-webkit-scrollbar-thumb:hover{/*Barra de scroll Con puntero*/
+        background: rgb(99, 148, 238);}
+    header{
+        width: 100%;
+        height: 80px;
+        align-items: center;
+        background-image: linear-gradient(to left,  rgb(235,1,14), black,black, rgb(235,1,14));}
+    body{
+            font-family:'Montserrat', sans-serif;
+            background: linear-gradient(to left,  rgb(235,1,14), black,black, rgb(235,1,14));}           
+    .imageneSuperiores{
+         align-items:center;
+         display: flex;
+         position: relative; }
+    .imamobula{
+            width: 50%;
+            padding: 0%;
+            position: relative;
+            left: 30%;
+            margin-top: -8%;
+            border-radius: 56px;}
+    .colaboradores{
+            width: 15%;
+            left: -30%;
+            bottom: -29%;
+            align-items: center;
+            display: inline;
+            position: relative;  }
+    .imamobu,.imamovisun,.imatide{
+        width: 9%;
+        position: relative;
+        left: 36%;
+        box-shadow: 2px 2px 1px wheat;
+        border-radius: 56px;
+        transition: 1s all;}
+    .imamobu{
+            width: 10%;
+            left: 36%;}
+    .imamobu:hover,.imamovisun:hover,.imatide:hover{
+            box-shadow: 0px 0px 0px red;}
+    .imagenfondo{
+        width: 98%;
+        position: absolute;
+        top: 5%;
+        left: 1%;
+        margin: 0%;;
+        opacity: 0.4;}  
+    .imawatch{
+        width: 100%;
+        position: absolute ;
+        opacity: 1.4;}
+    .imairpod{
+        width: 6%;
+        top: 76%;
+        left: 46%;
+        position: absolute;
+        opacity: 0.0;}   
+    .botones{
+        width: 50%;
+        height: 30%;
+        position: fixed;
+        bottom: 28%;
+        left: 25%;   }
+    .contacto{
+        width: 76%;
+        height: 38%;
+        position: absolute;
+        left: 12%;
+        top: 6%;
+        background-color: red ;
+        box-shadow: 6px 8px 10px 6px  #84d3fa;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        transition: 2s all;}
+    .contacto:hover{
+        transform: scale(1.1);
+        color: black;}
+    .imatienda{
+        width: 60px;
+        height: 60px;
+        background: rgb(255, 255, 255);
+        position: relative; 
+        background:radial-gradient(#ffff 2.1rem, rgb(235,1,14) 10%); 
+        top: 6%;
+        left: 2%;
+        transition: 3s all;} 
+    .imatienda:hover{ 
+        left: 76px; }
+    .compra{
+        width: 76%;
+        height: 38%;
+        position: absolute;
+        left: 12%;
+        top: 56%;
+        background-color: red ;
+        box-shadow: 6px 8px 10px 6px  #84d3fa; 
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        transition: 2s all;} 
+    .compra:hover{
+        transform: scale(1.1);}
+    .imacontacto{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        top: 10%;
+        background:radial-gradient(#ffff 2.1rem, rgb(235,1,14) 10%); 
+        left: 4%;  
+        transition: 3s all; }
+    .imacontacto:hover{
+        left: 76px;}
+    .titulo1, .titulo2{
+        padding-left: 28%;
+        font-size: 1.4rem;
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+        bottom: 40% ;
+        color: #ffff}
+    .titulo1:hover, .titulo2:hover{
+        color: #ffff; }
+    .redes{
+        width: 20%;
+        height: 10%;
+        position: absolute;
+        bottom: 6%;
+        left: 40%; }
+    .iconoface, .iconotik{
+        width: 20%;
+        height: 80%;
+        position: absolute;
+        top: 6px;
+        left: 4%;
+        transition: 2s all;}
+    .iconoinsta{
+        width: 30%;
+        height: 110%;
+        position: absolute;
+        left: 22%;
+        bottom: -5%;
+        transition: 2s all; }
+    .iconotik{
+        left: 50%; }
+    .iconocorr{
+        width: 26%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 70%;
+        transition: 2s all;}
+    .iconoface:hover{
+           transform: rotate(-50deg) skew(20deg);} 
+    .iconoinsta:hover{
+        transform: rotate(-50deg) skew(20deg); } 
+    .iconotik:hover{
+        transform: rotate(-50deg) skew(20deg);} 
+    .iconocorr:hover{
+        transform: rotate(-50deg) skew(20deg);}
+    .copyright{
+        width: 100%;
+        height: 40%;
+        color: rgb(251, 236, 229);;
+        position: absolute;
+        font-size: 13px;
+        padding: 15px ;
+        margin: 5%;
+        top: 70%;}  
+        
+        @media only screen and (min-width: 375px) and (max-width:389px){ 
+            body{
+               position: fixed;}
+            .imamobula{
+                width: 100%;
+                padding: 0%;
+                position: relative;
+                left: 3%;
+                margin-top:-15%} 
+            .imagenfondo{
+                width: 249%;
+                position: absolute;
+                top: 25%;
+                left: -75%;
+                margin: 0%;
+                opacity: 0.4;}  
+            .botones{
+                width: 100%;
+                height: 24%;
+                position: fixed;
+                bottom: 39%;
+                left: 0%;}
+            .imatienda, .imacontacto{
+                width: 56px;
+                height: 50px;
+                position: relative; 
+                top: 6%;
+                left: 2%;}        
+            .titulo1, .titulo2{
+                padding-left: 28%;
+                font-size: 1.1rem;
+                position: absolute;
+                bottom: 40% ;
+                color: #ffff}    
+            .imairpod{
+              width: 127%;
+              top:  180%;
+              left: -11%;
+              position: absolute;
+              opacity: 0.6;}
+            .colaboradores{
+                width: 80%;
+                height: 24%;
+                left: 11%;
+                display: flex;
+                position: absolute;
+                flex-wrap: nowrap;
+                top: 279%;
+                flex-direction: row} 
+            .imamobu,.imamovisun,.imatide{
+                width: 46%;
+                position: relative;
+                left: 28%;
+                transition: 1s all}     
+            .redes{
+                width: 39%;
+                height:19%;
+                position: absolute;
+                top: 307%;
+                left:32%;}
+            .copyright{
+                width: 100%;
+                height: 40%;
+                margin: 0%;
+                color: white;
+                position: absolute;
+                font-size: 6px;
+                left: 8%;
+                top: 67%}} 
+        @media only screen and (min-width: 390px) and (max-width:413px){ 
+            body{
+                position:fixed}
+            .imageneSuperiores{
+                display: flex;
+                align-items:center;
+                position: relative}
+            .imamobula{
+                width: 100%;
+                padding: 0%;
+                position: relative;
+                left: 3%;
+                margin-top:-15%} 
+            .imagenfondo{
+                width: 98%;
+                position: absolute;
+                top: 24%;
+                left: 1%;
+                margin: 0%;
+                opacity: 0.4;}                
+            .titulo1, .titulo2{
+                font-size: 2.6rem}
+            .redes{
+                width: 160%;
+                height:20%;
+                position: relative;
+                top: 240%;
+                left:83%}        
+            .imawatch{
+                width:276%;
+                left:-88%;
+                position: absolute;
+                opacity: 1.4}
+            .botones{
+                width: 94%;
+                height: 22%;
+                position: fixed;
+                bottom: 40%;
+                left: 2%;
+                opacity: 1.4}
+            .imairpod{
+                width: 119%;
+                top:  234%;
+                left: -8%;
+                position: absolute;
+                opacity: 0.4} 
+            .contacto,.compra{
+                width: 86%;
+                height: 30%;
+                position: absolute;
+                left: 6%;
+                top: 6%;
+                background-color: rgb(235,1,14);
+                border-top-right-radius: 20%;
+                border-bottom-left-radius: 20%;
+                transition: 2s all}
+            .compra{
+                top: 50%;
+                border-top-right-radius: 0%;
+                border-bottom-left-radius: 0%;
+                border-top-left-radius: 20%;
+                border-bottom-right-radius: 20%} 
+            .imatienda{
+                width: 43px;
+                height: 48px;
+                position: relative;
+                top: 3%;
+                left: 4%;
+                background:radial-gradient(#ffff 1.5rem, rgb(235,1,14) 5%);
+                transition: 3s all} 
+            .imacontacto{
+                width: 43px;
+                height: 48px;
+                position: relative;
+                top: 10%;
+                left: 4%;  
+                background:radial-gradient(#ffff 1.5rem, rgb(235,1,14) 5%);
+                transition: 3s all}
+            .titulo1,.titulo2{
+                font-size: 1.0rem}
+            .colaboradores{
+                width: 80%;
+                height: 24%;
+                left: 11%;
+                display: flex;
+                position: absolute;
+                flex-wrap: nowrap;
+                top: 358%;
+                flex-direction: row}
+            .imamobu,.imamovisun,.imatide{
+                width: 46%;
+                position: relative;
+                left: 24%;
+                box-shadow: 2px 2px 1px wheat;
+                border-radius: 56px;
+                transition: 1s all}                   
+            .redes{
+                width: 37%;
+                height:16%;
+                position: absolute;
+                top: 386%;
+                left:32%}
+            .copyright{
+                width: 100%;
+                height: 80%;
+                margin: 0%;
+                color: white;
+                position: absolute;
+                font-size: 6px;
+                left: 8%;
+                top: 76%}} 
+        @media only screen and (min-width: 414px) and (max-width:429px){ 
+            body{
+                position:fixed}
+            .imamobula{
+                width: 90%;
+                padding: 0%;
+                position: relative;
+                left: 7%;
+                margin-top:-8%}     
+            .imagenfondo{
+                width: 267%;
+                position: absolute;
+                left: -84%;
+                right: 11%;
+                top:  28%;
+                margin: 0%;
+                opacity: 0.4;}
+            .botones{
+                width: 105%;
+                height: 26%;
+                position: fixed;
+                bottom: 36%;
+                left: -4%;}       
+            .imairpod{
+                width: 109%;
+                top:  190%;
+                left: -3%;
+                position: absolute;}
+            .imatienda,.imacontacto {
+                width: 50px;
+                height: 50px;
+                background: rgb(255, 255, 255);
+                position: relative; 
+                background:radial-gradient(#ffff 2.1rem, rgb(235,1,14) 10%); 
+                top: 16%;
+                left: 3%;
+                transition: 3s all;}
+            .titulo1,.titulo2{
+                font-size: 1.3rem}
+            .imairpod{
+                width: 119%;
+                top:  195%;
+                left: -8%;
+                position: absolute;
+                opacity: 0.4}     
+            .colaboradores{
+                width: 80%;
+                height: 24%;
+                left: 11%;
+                display: flex;
+                position: absolute;
+                flex-wrap: nowrap;
+                top: 282%;
+                flex-direction: row;}
+            .imamobu,.imamovisun,.imatide{
+                width: 66%;
+                position: relative;
+                left: 9%;
+                border-radius: 56px;}   
+            .redes{
+                width: 37%;
+                height:16%;
+                position: absolute;
+                top: 306%;
+                left:32%;}
+            .copyright{
+                width: 100%;
+                height: 40%;
+                color: white;
+                position: absolute;
+                font-size: 7px;
+                left: -3%;
+                top: 46%;}}             
+         @media only screen and (min-width:430px) and (max-width:1366px){
+            header{
+                width: 108%;}
+             body{
+             position: fixed;}
+            .imageneSuperiores{
+            align-items:center;
+            display: flex;
+            position: relative;}
+            .imamobula{
+                width: 100%;
+                padding: 0%;
+                position: relative;
+                left: 2%;
+                margin-top: -12%;} 
+            .imagenfondo{
+                width: 211%;
+                position: absolute;
+                left: -53%;
+                right: 11%;
+                top:  38%;
+                margin: 0%;
+                opacity: 0.4;}
+            .botones{
+                    width: 94%;
+                    height: 22%;
+                    position: fixed;
+                    bottom: 40%;
+                    left: 2%;
+                    opacity: 1.4;}
+            .titulo1, .titulo2{
+                left: 3%;
+                font-size: 1.1rem;}
+            .imairpod{
+                width: 96%;
+                top:  251%;
+                left: 3%;
+                position: absolute;
+                opacity: 0.6;}     
+            .colaboradores{
+                width: 80%;
+                height: 24%;
+                left: 11%;
+                display: flex;
+                position: absolute;
+                flex-wrap: nowrap;
+                top: 350%;
+                flex-direction: row;}
+            .imamobu,.imamovisun,.imatide{
+                width: 46%;
+                position: relative;
+                left: 24%;
+                box-shadow: 2px 2px 1px wheat;
+                border-radius: 56px;
+                transition: 1s all;}
+            .redes{
+                width: 37%;
+                height:16%;
+                position: absolute;
+                top: 378%;
+                left:32%;}      
+            .copyright{
+                width: 100%;
+                height: 40%;
+                color: white;
+                position: absolute;
+                font-size: 8px;
+                left: -7%;
+                top: 46%;}} 
+    
