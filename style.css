@@ -176,29 +176,32 @@ body::-webkit-scrollbar{
                 left: 3%;
                 margin-top: 0%} 
             .imagenfondo{
-                width: 249%;
-                position: absolute;
-                top: 6%;
-                left: -75%;
-                margin: 0%;
+                width: 100%;
+                position: fixed;
+                top: 4%;
+                left:  0%;
                 opacity: 0.4;}  
+            .imawatch{
+                width: 217%;
+                left: -61%;
+                opacity: 1.4;}    
             .botones{
                 width: 100%;
-                height: 24%;
+                height: 29%;
                 position: fixed;
-                bottom: 60%;
+                bottom: 39%;
                 left: 0%;}
             .contacto{
-                width: 45%;
-                height: 25%;
+                width: 85%;
+                height: 30%;
                 position: absolute;
                 left: 6%;}
             .compra{
-                width: 45%;
-                height: 25%;
+                width: 85%;
+                height: 30%;
                 position: absolute;
                 left: 6%;
-                top: 43%;}         
+                top: 50%;}         
             .imatienda, .imacontacto{
                 width: 56px;
                 height: 50px;
@@ -212,9 +215,9 @@ body::-webkit-scrollbar{
                 bottom: 40% ;
                 color: #ffff}    
             .imairpod{
-              width: 127%;
-              top:  53%;
-              left: -11%;
+              width: 100%;
+              top:  55%;
+              left: 2%;
               opacity: 0.6;}
             .colaboradores{
                 width: 80%;
