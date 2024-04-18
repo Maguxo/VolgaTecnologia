@@ -181,7 +181,7 @@ body::-webkit-scrollbar{
                 padding: 0%;
                 position: relative;
                 left: 3%;
-                margin-top:-22%} 
+                margin-top:-26%} 
             .imagenfondo{
                 width: 249%;
                 position: absolute;
@@ -209,7 +209,7 @@ body::-webkit-scrollbar{
                 color: #ffff}    
             .imairpod{
               width: 127%;
-              top:  189%;
+              top:  195%;
               left: -11%;
               position: absolute;
               opacity: 0.6;}
@@ -220,18 +220,18 @@ body::-webkit-scrollbar{
                 display: flex;
                 position: absolute;
                 flex-wrap: nowrap;
-                top: 279%;
+                top: 303%;
                 flex-direction: row} 
             .imamobu,.imamovisun,.imatide{
                 width: 46%;
                 position: relative;
                 left: 28%;
                 transition: 1s all}     
-            .redes{
+            .redes{ 
                 width: 39%;
                 height:19%;
                 position: absolute;
-                top: 312%;
+                top: 329%;
                 left:32%;}
             .copyright{
                 width: 100%;
