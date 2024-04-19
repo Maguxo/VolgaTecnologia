@@ -1,9 +1,9 @@
 <div align="center">
 
- <h1>⭕⭕⭕ Tic- tac- toe ❌❌❌</h1>
+ <h1>📲🚀🚛 Volga Tecnología ⌚🤳🕰👩‍💻</h1>
 
- <img src="https://cdn.dribbble.com/users/920717/screenshots/5875096/5c448d8569db6529743473.gif" width="500" height="250">
- 
+ <img src="https://github.com/Maguxo/VolgaTecnologia/assets/98346054/d42be119-ef04-4d5f-9fcc-3b8f24edbf19" width="500" height="250">
+
 <p>Popular game for 2 participants, which consists of filling 3 boxes with the same character << X or O >>, making the column highlight the green color indicating the winner.</p>
   <img src="https://github.com/Maguxo/Tic-Tac-Toe/assets/98346054/3c4d62dd-203e-4d5b-9534-277743b84381"  width=49%/>
    <img src="https://github.com/Maguxo/Tic-Tac-Toe/assets/98346054/5bead8ed-e706-4d43-9679-312185e88266"  width=49%/>
