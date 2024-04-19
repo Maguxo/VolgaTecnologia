@@ -6,7 +6,7 @@
 
 <p>Página web creada para un cliente que se destaca en ventas de tecnología a nivel colombia y apriori necesita ser reconocida virtualmente.</p>
   <img src="https://github.com/Maguxo/VolgaTecnologia/assets/98346054/6ecf6ddf-f605-46e4-a992-5ba3723df9f6"  width=49%/>
-   <img src="https://github.com/Maguxo/VolgaTecnologia/assets/98346054/0d50953f-66b7-4114-b6d8-47908f0b020e"  width=49%/>
+   <img src="https://github.com/Maguxo/VolgaTecnologia/assets/98346054/0d50953f-66b7-4114-b6d8-47908f0b020e"  width=48%/>
 
 
 ---
