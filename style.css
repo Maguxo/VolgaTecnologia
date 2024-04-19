@@ -56,7 +56,8 @@ body::-webkit-scrollbar{
         height: 30%;
         position: fixed;
         bottom: 28%;
-        left: 25%;   }
+        opacity: 0.9;
+        left: 25%;}
     .contacto{
         width: 76%;
         height: 52%;
