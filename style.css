@@ -7,8 +7,7 @@ body::-webkit-scrollbar{
         background: rgb(90, 105,133);
         border-radius: 50px;}
     body::-webkit-scrollbar-thumb:hover{/*Barra de scroll Con puntero*/
-        background: rgb(99, 148, 238);}
-   
+        background: rgb(99, 148, 238);}   
     body{
             font-family:'Montserrat', sans-serif;
             background: linear-gradient(to left,  rgb(235,1,14), black,black, rgb(235,1,14));}           
@@ -365,28 +364,28 @@ body::-webkit-scrollbar{
                 left: 8%;
                 top: 76%}} 
         @media only screen and (min-width: 414px) and (max-width:429px){ 
-            body{
-                position:fixed}
+             body{
+            position: fixed;}
             .imamobula{
-                width: 90%;
+                width: 100%;
                 padding: 0%;
                 position: relative;
-                left: 7%;
-                margin-top:-8%}     
+                left: 3%;
+                margin-top:0%}     
             .imagenfondo{
-                width: 267%;
+                width: 221%;
                 position: absolute;
-                left: -84%;
+                left: -61%;
                 right: 11%;
                 top:  28%;
                 margin: 0%;
                 opacity: 0.4;}
             .botones{
-                width: 105%;
-                height: 26%;
+                width: 100%;
+                height: 20%;
                 position: fixed;
-                bottom: 36%;
-                left: -4%;}       
+                bottom: 46%;
+                left: -0%;}       
             .imairpod{
                 width: 109%;
                 top:  190%;
@@ -398,15 +397,15 @@ body::-webkit-scrollbar{
                 background: rgb(255, 255, 255);
                 position: relative; 
                 background:radial-gradient(#ffff 2.1rem, rgb(235,1,14) 10%); 
-                top: 16%;
+                top: 20%;
                 left: 3%;
                 transition: 3s all;}
             .titulo1,.titulo2{
                 font-size: 1.3rem}
             .imairpod{
                 width: 119%;
-                top:  195%;
-                left: -8%;
+                top:  214%;
+                left: -10%;
                 position: absolute;
                 opacity: 0.4}     
             .colaboradores{
@@ -416,7 +415,7 @@ body::-webkit-scrollbar{
                 display: flex;
                 position: absolute;
                 flex-wrap: nowrap;
-                top: 282%;
+                top: 317%;
                 flex-direction: row;}
             .imamobu,.imamovisun,.imatide{
                 width: 66%;
@@ -425,9 +424,9 @@ body::-webkit-scrollbar{
                 border-radius: 56px;}   
             .redes{
                 width: 37%;
-                height:16%;
+                height:22%;
                 position: absolute;
-                top: 306%;
+                top: 347%;
                 left:32%;}
             .copyright{
                 width: 100%;
@@ -437,7 +436,7 @@ body::-webkit-scrollbar{
                 font-size: 7px;
                 left: -3%;
                 top: 46%;}}             
-         @media only screen and (min-width:430px){
+            @media only screen and (min-width:430px){
             .imageneSuperiores{
             align-items:center;
             display: flex;
