@@ -336,7 +336,6 @@ body::-webkit-scrollbar{
                 position: absolute;
                 left: 6%;
                 top: 6%;
-                background-color: rgb(235,1,14);
                 border-top-right-radius: 20%;
                 border-bottom-left-radius: 20%;
                 transition: 2s all}
