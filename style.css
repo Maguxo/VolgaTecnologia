@@ -65,7 +65,7 @@ body::-webkit-scrollbar{
         left: 12%;
         top: 6%;
         background-color: black ;
-        box-shadow: 6px 8px 10px 6px  red;
+        box-shadow: 6px 8px 10px 6px  white;
         border-top-right-radius: 20%;
         border-bottom-left-radius: 20%;
         transition: 2s all;}
@@ -89,7 +89,7 @@ body::-webkit-scrollbar{
         left: 12%;
         top: 64%;
         background-color: black;
-        box-shadow: 6px 8px 10px 6px  red; 
+        box-shadow: 6px 8px 10px 6px  wheat; 
         border-top-left-radius: 20%;
         border-bottom-right-radius: 20%;
         transition: 2s all;} 
