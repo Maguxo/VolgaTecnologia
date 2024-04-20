@@ -14,8 +14,7 @@
  <h1>📽️Small Demonstration📽️</h1>
 
  
-
-https://github.com/Maguxo/Tic-Tac-Toe/assets/98346054/658ada80-f50a-4b55-9501-e308a8b52e20
+aqui va video.
 
 
 
@@ -40,8 +39,9 @@ https://github.com/Maguxo/Tic-Tac-Toe/assets/98346054/658ada80-f50a-4b55-9501-e3
   <div align="center">
    <img src="https://img.shields.io/badge/Java-Challenge%23-orange"> 
   </div>
-  
-   <img src="https://github.com/Maguxo/Tic-Tac-Toe/assets/98346054/4d1dcf45-466a-4aca-9e0c-4213803f5270" />
+  imagen de agradecimiento.
+  <img src=""/>
+   
 </div>
 
 </div>
