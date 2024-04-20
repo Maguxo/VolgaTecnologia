@@ -64,8 +64,8 @@ body::-webkit-scrollbar{
         position: absolute;
         left: 12%;
         top: 6%;
-        background-color: red ;
-        box-shadow: 6px 8px 10px 6px  #84d3fa;
+        background-color: black ;
+        box-shadow: 6px 8px 10px 6px  red;
         border-top-right-radius: 20%;
         border-bottom-left-radius: 20%;
         transition: 2s all;}
@@ -75,9 +75,8 @@ body::-webkit-scrollbar{
     .imatienda{
         width: 60px;
         height: 60px;
-        background: rgb(255, 255, 255);
+        background:black;
         position: relative; 
-        background:radial-gradient(#ffff 2.1rem, rgb(235,1,14) 10%); 
         top: 6%;
         left: 2%;
         transition: 3s all;} 
@@ -89,8 +88,8 @@ body::-webkit-scrollbar{
         position: absolute;
         left: 12%;
         top: 78%;
-        background-color: red ;
-        box-shadow: 6px 8px 10px 6px  #84d3fa; 
+        background-color: black;
+        box-shadow: 6px 8px 10px 6px  red; 
         border-top-left-radius: 20%;
         border-bottom-right-radius: 20%;
         transition: 2s all;} 
@@ -101,7 +100,7 @@ body::-webkit-scrollbar{
         height: 60px;
         position: relative;
         top: 10%;
-        background:radial-gradient(#ffff 2.1rem, rgb(235,1,14) 10%); 
+        background:black; 
         left: 4%;  
         transition: 3s all; }
     .imacontacto:hover{
@@ -203,11 +202,12 @@ body::-webkit-scrollbar{
                 left: 6%;
                 top: 50%;}         
             .imatienda, .imacontacto{
-                width: 56px;
-                height: 50px;
+                width: 100px;
+                height: 66px;
+                border-radius: 100%;
                 position: relative; 
-                top: 6%;
-                left: 2%;}        
+                top: 3%;
+                left: 0%;}        
             .titulo1, .titulo2{
                 padding-left: 28%;
                 font-size: 1.1rem;
@@ -393,14 +393,12 @@ body::-webkit-scrollbar{
                 left: -3%;
                 position: absolute;}
             .imatienda,.imacontacto {
-                width: 50px;
-                height: 50px;
-                background: rgb(255, 255, 255);
+                width: 92px;
+                height: 66px;
+                border-radius: 100%;
                 position: relative; 
-                background:radial-gradient(#ffff 2.1rem, rgb(235,1,14) 10%); 
-                top: 20%;
-                left: 3%;
-                transition: 3s all;}
+                top: 6%;
+                left: 0%;}
             .titulo1,.titulo2{
                 font-size: 1.3rem}
             .imairpod{
@@ -437,7 +435,7 @@ body::-webkit-scrollbar{
                 font-size: 7px;
                 left: -3%;
                 top: 46%;}}             
-            @media only screen and (min-width:430px){
+        @media only screen and (min-width:430px){
             .imageneSuperiores{
             align-items:center;
             display: flex;
@@ -463,20 +461,12 @@ body::-webkit-scrollbar{
                     bottom: 51%;
                     left: 2%;
                     opacity: 1.4;}
-            .imatienda{
-                width: 50px;
-                height: 50px;
+            .imatienda, .imacontacto{
+                width: 30%;
                 position: relative;
-                top: 15%;
-                border-radius: 20%;
-                left: 4%;} 
-            .imacontacto{
-                width: 50px;
-                height: 50px;
-                position: relative;
-                top: 20%;
-                border-radius: 20%;
-                left: 4%;}                 
+                top: 13%;
+                border-radius: 100%;
+                left: 0%;}                  
             .titulo1, .titulo2{
                 left: 3%;
                 font-size: 1.1rem;}
