@@ -16,11 +16,11 @@ body::-webkit-scrollbar{
          display: flex;
          position: relative; }
     .imamobula{
-            width: 50%;
+            width: 40%;
             padding: 0%;
             position: relative;
-            left: 30%;
-            margin-top: -8%;
+            left: 35%;
+            margin-top: 0%;
             border-radius: 56px;}
     .imamobu,.imamovisun,.imatide{
         width: 9%;
@@ -47,20 +47,20 @@ body::-webkit-scrollbar{
         opacity: 1.4;}
     .imairpod{
         width: 6%;
-        top: 76%;
+        top: 30%;
         left: 46%;
         position: absolute;
         opacity: 0.0;}   
     .botones{
         width: 50%;
-        height: 30%;
+        height: 40%;
         position: fixed;
         bottom: 28%;
         opacity: 0.9;
         left: 25%;}
     .contacto{
-        width: 76%;
-        height: 52%;
+        width: 77%;
+        height: 36%;
         position: absolute;
         left: 12%;
         top: 6%;
@@ -73,21 +73,21 @@ body::-webkit-scrollbar{
         transform: scale(1.1);
         color: black;}
     .imatienda{
-        width: 60px;
-        height: 60px;
+        width: 30%;
         background:black;
         position: relative; 
         top: 6%;
-        left: 2%;
+        border-radius: 100%;
+        left: 0%;
         transition: 3s all;} 
     .imatienda:hover{ 
         left: 76px; }
     .compra{
-        width: 76%;
-        height: 52%;
+        width: 77%;
+        height: 36%;
         position: absolute;
         left: 12%;
-        top: 78%;
+        top: 64%;
         background-color: black;
         box-shadow: 6px 8px 10px 6px  red; 
         border-top-left-radius: 20%;
@@ -96,18 +96,18 @@ body::-webkit-scrollbar{
     .compra:hover{
         transform: scale(1.1);}
     .imacontacto{
-        width: 60px;
-        height: 60px;
+        width: 30%;
         position: relative;
         top: 10%;
+        border-radius: 100%;
         background:black; 
-        left: 4%;  
+        left: 0%;   
         transition: 3s all; }
     .imacontacto:hover{
         left: 76px;}
     .titulo1, .titulo2{
         padding-left: 28%;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         position: absolute;
         font-family: 'Times New Roman', Times, serif;
         bottom: 40% ;
@@ -386,6 +386,24 @@ body::-webkit-scrollbar{
                 position: fixed;
                 bottom: 46%;
                 left: -0%;}       
+            .contacto{
+                width: 86%;
+                height: 48%;
+                position: absolute;
+                left: 6%;
+                top: 6%;
+                border-top-right-radius: 20%;
+                border-bottom-left-radius: 20%;
+                transition: 2s all}  
+            .compra{
+                width: 86%;
+                height: 48%;
+                position: absolute;
+                left: 6%;
+                top: 74%;
+                border-top-left-radius: 20%;
+                border-bottom-right-radius: 20%;
+                transition: 2s all}  
             .imairpod{
                 width: 109%;
                 top:  190%;
@@ -434,7 +452,7 @@ body::-webkit-scrollbar{
                 font-size: 7px;
                 left: -3%;
                 top: 46%;}}             
-        @media only screen and (min-width:430px){
+        @media only screen and (min-width:430px) and (max-width:460px){
             .imageneSuperiores{
             align-items:center;
             display: flex;
